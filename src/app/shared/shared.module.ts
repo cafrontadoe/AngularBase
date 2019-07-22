@@ -3,7 +3,6 @@ import {CommonModule} from "@angular/common";
 import {FormsModule} from "@angular/forms";
 import {RouterModule} from "@angular/router";
 import {NgbModalModule, NgbPaginationModule} from "@ng-bootstrap/ng-bootstrap";
-import { TranslateModule} from "@ngx-translate/core";
 import {NgSelectModule} from "@ng-select/ng-select";
 @NgModule({
   imports: [
@@ -12,7 +11,6 @@ import {NgSelectModule} from "@ng-select/ng-select";
     RouterModule,
     NgbModalModule,
     NgbPaginationModule,
-    TranslateModule,
     NgSelectModule
   ],
   exports: [
@@ -21,7 +19,6 @@ import {NgSelectModule} from "@ng-select/ng-select";
     RouterModule,
     NgbModalModule,
     NgbPaginationModule,
-    TranslateModule,
     NgSelectModule
   ]
 })
